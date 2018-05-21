@@ -11,7 +11,7 @@ ga('send', 'pageview');
 <!-- End Google Analytics -->
 
 <h1> ACME Movie Rental System  </h1>
-<table> <tr> <td> <a href=insertactor.php> Register </a> </td> <td> <a href=analytics.php> Analytics </a> </td> <td> <a href=index.php> About Customers </a> </tr> </table>
+<table> <tr> <td> <a href=insertactor.php> Register </a> </td> <td> <a href=analytics.php> Analytics </a> </td> <td> <a href=index.php> About </a> </tr> </table>
 <hr>
 
 
