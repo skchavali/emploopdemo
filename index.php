@@ -9,7 +9,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php
 
 include 'include.php';
+
+?>
 <p> Welcome ACME Movie Retabl Website </p>
     
 <a href=insertactor.php> Insert Record </a>
-    ?>
+    </htm>
