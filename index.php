@@ -12,3 +12,4 @@ include 'include.php';
 <p> Welcome ACME Movie Retabl Website </p>
     
 <a href=insertactor.php> Insert Record </a>
+    ?>
