@@ -10,8 +10,8 @@ ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
 
-<h1> ACME Move Rental System  </h1>
-<table> <tr> <td> <a href=insertactor.php> Register </a> </td> <td> <a href=analytics.php> Analytics </a> </td> <td> <a href=index.php> Recent Customers </a> </tr> </table>
+<h1> ACME Movie Rental System  </h1>
+<table> <tr> <td> <a href=insertactor.php> Register </a> </td> <td> <a href=analytics.php> Analytics </a> </td> <td> <a href=index.php> About Customers </a> </tr> </table>
 <hr>
 
 
