@@ -11,7 +11,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 include 'include.php';
 
 ?>
-<p> Welcome ACME Movie Retabl Website </p>
+<p> Welcome ACME Movie Rental Website. You can search for movies, checkout popular movies and register as a new customer. </p>
     
 <a href=insertactor.php> Insert Record </a>
     </htm>
