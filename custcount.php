@@ -2,7 +2,6 @@
 <title> Insert Success </title>
 <?php
 
-include 'include.php';
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = $url["host"];
 $username = "b3c0dca2fea3fb";
@@ -22,7 +21,7 @@ $stmt->execute();
 $stmt->bind_result($count);
 
 while ($stmt->fetch()) {
-    echo "Join our " . $count . " customers";
+    echo "Join our " . $count . " customers who joined online recently";
 }
 
 
