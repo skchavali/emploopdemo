@@ -16,7 +16,7 @@ include 'include.php';
 
 
 <form action="insertdb.php"  method="post">
-Moview Name: <input type="text" name="firstname" value="Avenger"><br>
+Movie Name: <input type="text" name="firstname" value="Avenger"><br>
 <input type="submit" onclick="ga('require', 'ecommerce');ga('send', 'event', 'Shop', 'Submit', 'Movie');ga('ecommerce:addTransaction', {
   'id': '1234',                     // Transaction ID. Required.
   'affiliation': 'ACME Movies',   // Affiliation or store name.
