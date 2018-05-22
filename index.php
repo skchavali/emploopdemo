@@ -12,6 +12,12 @@ include 'include.php';
 
 ?>
 <p> Welcome ACME Movie Rental Website. You can search for movies, checkout popular movies and register as a new customer. </p>
+
+<?php
+
+include 'custcount.php';
+
+?>
     
 <a href=insertactor.php> Insert Record </a>
     </htm>
