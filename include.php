@@ -9,7 +9,7 @@ ga('create', 'UA-3172146-1', 'auto');
 ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
-
+<img src=https://mir-s3-cdn-cf.behance.net/project_modules/disp/c3d0f834884877.56060c8349f64.jpg height="20%" width="20%" >
 <h1> ACME Movie Rental System  </h1>
 <table> <tr> <td> <a href=insertactor.php> Register </a> </td> <td> <a href=analytics.php> Analytics </a> </td> <td> <a href=index.php> About </a> </tr> </table>
 <hr>
