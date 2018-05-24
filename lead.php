@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <title> Sign up for Discounts </title>
 <?php
   
   include 'include.php';
 ?>
+  <h1> Sign up for Discounts </h1>
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
 <!--  If necessary, please modify the charset parameter to specify the        -->
