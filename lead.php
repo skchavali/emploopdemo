@@ -2,7 +2,9 @@
 <html>
 <body>
 <?php
-
+  
+  include 'include.php';
+?>
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
 <!--  If necessary, please modify the charset parameter to specify the        -->
@@ -96,4 +98,4 @@
 <input type="submit" name="submit">
 
 </form>
-?>
+
