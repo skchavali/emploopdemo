@@ -17,7 +17,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$title= "Page View"
+$title= "Page View";
 $sql = "INSERT INTO acme_pageviews (page)tile) VALUES ('"  . $title . "')";
 
 
