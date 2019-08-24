@@ -9,7 +9,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php
 
 include 'include.php';
-$title = "Home"
+$title = "Home";
 include 'pageview.php';
 ?>
 <p> Welcome ACME Movie Rental Website. You can search for movies, checkout popular movies and register as a new customer. </p>
