@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 } 
 
 $title= "Page View"
-$sql = "INSERT INTO acme_pageviews (page)tile) VALUES ('" .  . "', '" . $title . "')";
+$sql = "INSERT INTO acme_pageviews (page)tile) VALUES ('"  . $title . "')";
 
 
 
