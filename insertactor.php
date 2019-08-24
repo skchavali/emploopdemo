@@ -9,6 +9,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <?php
  include 'include.php'
+ $title = "Register";
+include 'pageview.php';
 ?>
 
 <body>
@@ -26,4 +28,10 @@ E-mail: <input type="text" name="email"><br>
 </form>
 
 </body>
+
+<?php
+
+include 'pageviewcounter.php';
+
+?>
 </html>
