@@ -21,4 +21,10 @@ include 'custcount.php';
 ?>
     
 <a href=insertactor.php> Insert Record </a>
+
+<?php
+
+include 'pageviewcounter.php';
+
+?>
     </htm>
