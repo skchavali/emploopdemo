@@ -1,5 +1,6 @@
 <html>
 <title> Page View Display </title>
+<br><br>
 <?php
 
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -16,7 +17,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$title = "Home";
 $sql = "select count(*) from acme_pageviews where page_title = '"  . $title . "'" ;
 $stmt = $conn->prepare($sql);
 $stmt->execute();
@@ -24,6 +24,7 @@ $stmt->execute();
 $stmt->bind_result($count);
 
 while ($stmt->fetch()) {
+	
     echo "Number of Page Views " . $count ;
 }
 
