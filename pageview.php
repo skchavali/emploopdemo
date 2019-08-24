@@ -6,7 +6,7 @@ include 'include.php';
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = $url["host"];
 $username = "b3c0dca2fea3fb";
-$password = "";
+$password = "7200888a";
 $dbname = substr($url["path"],1);
 
 
