@@ -5,6 +5,8 @@
 <?php
   
   include 'include.php';
+   $title = "Discounts";
+include 'pageview.php';
 ?>
   <h1> Sign up for Discounts </h1>
 <!--  ----------------------------------------------------------------------  -->
@@ -100,4 +102,11 @@
 <input type="submit" name="submit">
 
 </form>
+
+<?php
+
+include 'pageviewcounter.php';
+
+?>
+</html>
 
