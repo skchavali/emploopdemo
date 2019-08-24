@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 } 
 
 $title = "Home";
-$sql = "select count(*) from acme_pageview where page_title = "  . $title  ;
+$sql = "select count(*) from acme_pageviews where page_title = "  . $title  ;
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 
