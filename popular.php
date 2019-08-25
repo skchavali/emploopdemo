@@ -18,9 +18,9 @@ if ($conn->connect_error) {
 $stmt = $conn->prepare("select count(*), page_title from acme_pageviews order by 1 desc");
 $stmt->execute();
 
-$stmt->bind_result($count, $title);
 
 while ($stmt->fetch()) {
+	$stmt->bind_result($count, $title);
     echo "Page: " . $title . " has " . $count . " views";
 	echo "<br>";
 }
