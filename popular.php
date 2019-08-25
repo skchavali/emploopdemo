@@ -1,7 +1,7 @@
 <html>
-<title> Insert Success </title>
-<?php
 
+<?php
+include 'include.php';
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = $url["host"];
 $username = "b3c0dca2fea3fb";
