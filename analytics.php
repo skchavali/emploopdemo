@@ -1,6 +1,8 @@
 <?php
 
 include 'include.php';
+$title = "Tableau Analytics";
+include 'pageview.php';
 
 ?>
 <htm>

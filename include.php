@@ -12,7 +12,7 @@ ga('send', 'pageview');
 <img src=acme.png height="20%" width="20%" >
 <h1> ACME Movie Rental System  </h1>
 <table> <tr> <td> <a href=insertactor.php> Register </a> </td> <td> <a href=analytics.php> Tableau Analytics </a> </td> 
-  <td> <a href=gdatastudio.php> Data Studio </a> </td> <td> <a href=lead.php> Coupons </a> </td> <td> <a href=popular.php> Popular Pages </a> </td> <td> <a href=index.php> About </a> </td> </tr> </table>
+  <td> <a href=lead.php> Coupons </a> </td> <td> <a href=popular.php> Popular Pages </a> </td> <td> <a href=index.php> About </a> </td> </tr> </table>
 <hr>
 
 
