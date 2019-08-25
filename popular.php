@@ -15,14 +15,14 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "select count(*) count, page_title from acme_pageviews order by 1 desc";
+$sql = "select count(*) count, page_title from acme_pageviews group by page_title order by 1 desc";
 $result = $conn->query($sql);
 
 
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "Page:  " . $row["page_title"]. " has " . $row["page_title"]. " views " . "<br>";
+        echo "Page:  " . $row["page_title"]. " has " . $row["count"]. " views " . "<br>";
     }
 } else {
     echo "0 results";
