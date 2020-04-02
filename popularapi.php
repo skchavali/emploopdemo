@@ -8,12 +8,7 @@ $username = "b3c0dca2fea3fb";
 $password = "7200888a";
 $dbname = substr($url["path"],1);
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+echo "page working?";
 
 $server = mysql_connect($servername, $username, $password);
 $connection = mysql_select_db($dbname, $servername);
@@ -23,6 +18,7 @@ $connection = mysql_select_db($dbname, $servername);
     
     if ( ! $query ) {
         echo mysql_error();
+		echo "no connection";
         die;
     }
    
@@ -32,9 +28,9 @@ $connection = mysql_select_db($dbname, $servername);
     for ($x = 0; $x < mysql_num_rows($query); $x++) {
         $data[] = mysql_fetch_assoc($query);
     }
-    
+    echo "print array";
     echo json_encode($data);  
-
+ 
 
 $conn->close();
 ?>
