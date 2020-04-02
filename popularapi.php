@@ -1,7 +1,6 @@
 <html>
 
 <?php
-include 'include.php';
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $servername = $url["host"];
 $username = "b3c0dca2fea3fb";
@@ -22,12 +21,11 @@ $result = $conn->query($sql);
 
 $data = array();
 
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
+while($row = $result->fetch_assoc()) {
         $data[]=$row;
    }
 
- 
+echo "page working 2?"; 
 
 $conn->close();
 ?>
