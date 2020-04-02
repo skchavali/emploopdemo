@@ -66,7 +66,7 @@ var svg = d3.select("body").append("svg")
     });
 
   x.domain(k);
-  y.domain([0, d3.max(data, function(d) { return d.total; })]);
+  y.domain([0, d3.max(data, function(d) { return d.count; })]);
 
   svg.append("path")
     .datum(data)
