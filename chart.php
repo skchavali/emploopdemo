@@ -57,7 +57,7 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json("api.php", function(error, data) {
+  d3.json("popularapi.php", function(error, data) {
   var k = [];
     data.forEach(function(d) {
         d.view_date = d.view_date;
