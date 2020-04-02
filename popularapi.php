@@ -15,14 +15,22 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "select count(*) count, page_title from acme_pageviews group by page_title order by 1 desc";
-$result = $conn->query($sql);
+$server = mysql_connect($servername, $username, $password);
+$connection = mysql_select_db($dbname, $servername);
 
+    $myquery = "select count(*) count, page_title from acme_pageviews group by page_title order by 1 desc"; 
+	$query = mysql_query($myquery);
+    
+    if ( ! $query ) {
+        echo mysql_error();
+        die;
+    }
+   
 
  $data = array();
     
-    for ($x = 0; $x < mysql_num_rows($result); $x++) {
-        $data[] = mysql_fetch_assoc($result);
+    for ($x = 0; $x < mysql_num_rows($query); $x++) {
+        $data[] = mysql_fetch_assoc($query);
     }
     
     echo json_encode($data);  
