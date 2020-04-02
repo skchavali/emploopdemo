@@ -27,7 +27,6 @@ $data = array();
         $data[]=$row;
    }
 
-echo json_encode($data);  
  
 
 $conn->close();
