@@ -7,7 +7,6 @@ $username = "b3c0dca2fea3fb";
 $password = "7200888a";
 $dbname = substr($url["path"],1);
 
-echo "page working?";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -25,7 +24,7 @@ while($row = $result->fetch_assoc()) {
         $data[]=$row;
    }
 
-echo "page working 2?"; 
+ echo json_encode($data);
 
 $conn->close();
 ?>
