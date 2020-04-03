@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "select page_title, count, view_date from acme_pageviews limit 10";
+$sql = "select page_title, count, left(view_date,10) from acme_pageviews limit 10";
 $result = $conn->query($sql);
 
 $data = array();
